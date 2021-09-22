@@ -20,9 +20,7 @@ class Conta{
 }
 class FactoryConta {
 
-	public Conta getConta(float limite, float valor) {
-		
-	}
+	
 
 }    
 
