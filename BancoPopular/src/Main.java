@@ -12,6 +12,7 @@ class Conta{
 	}
 	
     public void deposita(int valor) {
+        this.saldo += valor;
 
     }
     public void transferir(){
