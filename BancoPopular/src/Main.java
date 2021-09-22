@@ -1,23 +1,12 @@
 import java.util.Scanner;
-class Conta{
-    private float saldo;
-    private float limite;
-    public void saca(int valor) {
-		if(saldo<valor){
-            System.out.print("Seu saldo é insuficiente para este saque");
-        }
-        else{
-            System.out.println("Saque de "+valor+"R$ efetuado com sucesso");
-        }
-	}
-	
-    public void deposita(int valor) {
-        this.saldo += valor;
+public abstract class Conta{
+    public String titular;
+    public String tipo;
+    public float saldo;
 
-    }
-    public void transferir(){
-
-    }
+    public abstract void saca(double valor);
+    public abstract void deposita(int valor);
+    public abstract void transferir(double valor, Conta destino);
 }
 class FactoryConta {
 
