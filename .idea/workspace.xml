@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="958eb681-be5e-42da-9b38-6c064ada564e" name="Changes" comment="" />
+    <list default="true" id="958eb681-be5e-42da-9b38-6c064ada564e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BancoPopular/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/BancoPopular/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BancoPopular/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/BancoPopular/src/ContaPoupanca.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +24,47 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ImplementandoPadraoAdapter/utils" />
+      <recent name="$PROJECT_DIR$/ImplementandoPadraoAdapter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="958eb681-be5e-42da-9b38-6c064ada564e" name="Changes" comment="" />
@@ -31,18 +73,46 @@
       <option name="presentableId" value="Default" />
       <updated>1632247837076</updated>
       <workItem from="1632248054012" duration="61000" />
+      <workItem from="1632378297009" duration="14291000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="195" width="800" height="672" key="#Project_Structure" timestamp="1632395805692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="195" width="800" height="672" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1632395805692" />
+    <state x="418" y="177" width="1084" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632387847526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="418" y="177" width="1084" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1632387847526" />
+    <state x="201" y="339" width="541" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632396472798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="201" y="339" width="541" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1632396472798" />
+    <state x="743" y="318" width="424" height="479" key="FileChooserDialogImpl" timestamp="1632387792962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="318" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1632387792962" />
+    <state x="376" y="217" width="1157" height="598" key="new project wizard" timestamp="1632387923943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="376" y="217" width="1157" height="598" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1632387923943" />
   </component>
 </project>

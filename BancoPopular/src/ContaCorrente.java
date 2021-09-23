@@ -1,6 +1,5 @@
-
-public class ContaPoupanca extends Conta{
-    private double rendimento = 00.04;
+public class ContaCorrente extends Conta{
+    private double taxaDeOperacao = 00.05;
 
     public void depositar(double valor){
         this.saldo += valor;
@@ -11,9 +10,10 @@ public class ContaPoupanca extends Conta{
         }
     }
 
-    public  void  transferir(double valor, ContaPoupanca destino){
+    public  void  transferir(double valor, ContaCorrente destino){
         if(this.saldo >= valor){
             this.saldo -= valor;
+            this.saldo -= taxaDeOperacao;
             destino.depositar(valor);
         }
     }

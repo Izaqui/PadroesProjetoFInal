@@ -1,11 +1,13 @@
 package BancoPopular.src;
 
 public abstract class Conta{
-    public String titular;
-    public String tipo;
-    public float saldo;
+    private String titular;
+    private String cpf;
+    private String numero_conta
+    private String tipo;
+    private double saldo;
 
-    public abstract void saca(double valor);
-    public abstract void deposita(int valor);
+    public abstract void sacar(double valor);
+    public abstract void depositar(int valor);
     public abstract void transferir(double valor, Conta destino);
 }

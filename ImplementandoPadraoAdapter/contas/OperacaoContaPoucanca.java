@@ -1,5 +1,5 @@
+public class OperacaoContaPoupanca extends Conta implements Manutencao {
 
-public class ContaPoupanca extends Conta{
     private double rendimento = 00.04;
 
     public void depositar(double valor){
@@ -17,4 +17,15 @@ public class ContaPoupanca extends Conta{
             destino.depositar(valor);
         }
     }
+
+    @Override
+    public void manutencaoContaCorrente( double saldo) {
+        //do nothing
+    }
+
+    @Override
+    public void manutencaoContaPoupanca( double saldo) {
+        saldo += rendimento;
+    }
+
 }
